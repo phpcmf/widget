@@ -93,10 +93,10 @@ export default class Widget extends Component {
       items.add(
         'latest_member',
         <li>
-          {app.translator.trans(translationPrefix + 'latest_member')}{' '}
           <Link href={app.route.user(this.user)}>
-            <strong>{username(this.user)}</strong>
+            {username(this.user)}
           </Link>
+          {app.translator.trans(translationPrefix + 'latest_member')}{' '}
         </li>
       );
     }

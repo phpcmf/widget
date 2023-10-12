@@ -2,10 +2,10 @@ widget:
   site:
     navbar:
       widget_title: 小部件
-      discussions_count: "主题：{discussionsCount}"
-      posts_count: "帖子：{postsCount}"
-      users_count: "会员：{usersCount}"
-      latest_member: "最近注册："
+      discussions_count: "<small>{discussionsCount}</small><span>主题</span>"
+      posts_count: "<small>{postsCount}</small><span>帖子</span>"
+      users_count: "<small>{usersCount}</small><span>会员</span>"
+      latest_member: "<span>最近注册</span>"
   admin:
     settings:
       widget_ignore_private_discussions_label: 不统计私密主题
