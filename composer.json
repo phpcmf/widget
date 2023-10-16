@@ -17,7 +17,7 @@
       "title": "小部件",
       "category": "feature",
       "icon": {
-        "name": "fas fa-chart-bar",
+        "image": "icon.svg",
         "backgroundColor": "#e74c3c",
         "color": "#fff"
       }
